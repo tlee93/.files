@@ -1,0 +1,7 @@
+alias hide='chflags hidden'
+alias unhide='chflags nohidden'
+alias ll='ls -lGh'
+alias lla='ls -lGha'
+alias ..='cd ..'
+alias ...='cd ../..'
+
