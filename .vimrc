@@ -8,6 +8,9 @@ colorscheme snazzy
 " enable syntax highlighting
 syntax enable
 
+" enable light background mode for comment visibility
+set bg=light
+
 " ignore case sensitivity in searches
 set ignorecase
 
