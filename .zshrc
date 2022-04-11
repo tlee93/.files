@@ -1,6 +1,6 @@
 # enables case insensitive tab completion
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
-autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit -u
 
 # changes zsh theme to pure
 fpath+=$HOME/.zsh/pure
