@@ -4,5 +4,7 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = tim
+	name = tlee93
 	email = tlee93@users.noreply.github.com
+[credential]
+	helper = cache
