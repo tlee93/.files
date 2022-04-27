@@ -4,4 +4,4 @@ alias ll='ls -lGh'
 alias lla='ls -lGha'
 alias ..='cd ..'
 alias ...='cd ../..'
-
+alias sudo='sudo '
