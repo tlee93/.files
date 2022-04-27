@@ -26,3 +26,7 @@ source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # load custom aliases
 source $HOME/.aliases
 
+# load custom functions
+fpath+=$HOME/.functions
+autoload f
+

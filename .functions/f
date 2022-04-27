@@ -1,0 +1,1 @@
+function f { grep -rnIi "$1" . --color; }

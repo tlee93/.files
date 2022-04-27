@@ -1,5 +1,6 @@
 rm -rf ~/.vim
 rm -rf ~/.zsh
+rm -rf ~/.functions
 rm ~/.aliases
 rm ~/.gitconfig
 rm ~/.hushlogin
@@ -9,6 +10,7 @@ rm ~/.zshrc
 
 ln -sF ~/.files/.vim ~/.vim
 ln -sF ~/.files/.zsh ~/.zsh
+ln -sF ~/.files/.functions ~/.functions
 ln -s  ~/.files/.aliases ~/.aliases
 ln -s  ~/.files/.gitconfig ~/.gitconfig
 ln -s  ~/.files/.hushlogin ~/.hushlogin
