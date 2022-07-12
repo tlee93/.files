@@ -28,5 +28,6 @@ source $HOME/.aliases
 
 # load custom functions
 fpath+=$HOME/.functions
+autoload ff
 autoload f
 
